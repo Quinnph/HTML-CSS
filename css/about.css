@@ -16,6 +16,7 @@ body {
 	height: 20%;
 	margin: 60px auto;
 	text-align: center;
+	overflow: hidden;
 }
 
 .main-nav {
@@ -100,4 +101,97 @@ em {
 	font-size: 15px;
 	color: black;
 	letter-spacing: 2px
+}
+
+@media only screen and  (min-width: 320px) and (max-width: 424px) {
+	.nav {
+		margin: 30px auto;
+		float: left;
+	}
+
+	.main-nav {
+		display: block;
+	}
+	.logo {
+		display: none;
+	}
+	.main-content {
+		margin: 0;
+		padding: 10px 20px;
+	}
+	.overview {
+		width: 100%;
+	}
+	.additional {
+		display: none;
+	}
+	.overview p {
+		font-size: 18px;
+		letter-spacing: 1px;
+	}
+}
+
+@media only screen and  (min-width: 425px) and (max-width: 767px) {
+	.nav {
+		margin: 30px auto;
+		float: left;
+	}
+
+	.main-nav {
+		display: block;
+	}
+	.logo {
+		display: none;
+	}
+	.main-content {
+		margin: 0;
+		padding: 10px 20px;
+	}
+	.overview {
+		width: 100%;
+	}
+	.additional {
+		display: none;
+	}
+	.overview p {
+		font-size: 18px;
+		letter-spacing: 1px;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+	.nav {
+		margin: 50px auto;
+		float: left;
+	}
+
+	.main-nav {
+		display: block;
+	}
+	.logo {
+		display: none;
+	}
+	.main-content {
+		margin: 0;
+		padding: 10px 20px;
+	}
+	.overview{
+		width: 100%;
+	}
+	.additional {
+		width: 100%;
+		float: left;
+		padding-top: 30px;
+	}
+	.overview p {
+		font-size: 18px;
+		letter-spacing: 1px;
+	}
+	.additional h3 {
+		letter-spacing: 1px;
+	}
+	.additional p {
+		font-size: 16px;
+		letter-spacing: 1px;
+	}
 }
