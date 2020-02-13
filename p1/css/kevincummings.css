@@ -1,0 +1,121 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Lato, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	background-color: #000000;
+	color: #FFFAF0;
+	text-transform: none;
+	font-size: 15px;
+	display: block;
+}
+
+.wrapper {
+	width: 100%;
+}
+
+.mobile-nav {
+	display: none;
+}
+
+.left {
+	width: 25%;
+	float: left;
+	position: fixed;
+	margin: 10px 30px;
+}
+
+.right {
+	width: 75%;
+	float: right;
+	margin-top: 100px;
+}
+
+.logo a img {
+	width: 230px;
+	height: auto;
+}
+
+.logo-description {
+	color: #666;
+	font-size: 12px;
+	padding-left: 20px;
+}
+
+.top-nav {
+	padding-left: 40px;
+	padding-top: 50px;
+}
+
+.secondary-nav {
+	padding-top: 30px;
+}
+
+li {
+	list-style: none;
+}
+
+a { 
+	text-decoration: none;
+	color: #FFFFF0;
+	text-align: left;
+	letter-spacing: 1.5px;
+}
+
+.folder {
+	padding-bottom: 15px;
+}
+
+.folder-parent {
+	font-size: 15px;
+	cursor: pointer;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #000000;
+	color: #FFFAF0;
+	min-width: 200px;
+	border: none;
+}
+
+.dropdown-content a {
+	color: #FFFAF0;
+	padding: 10px 20px;
+	display: block;
+	font-size: 15px;
+}
+
+.folder:hover .dropdown-content {
+	display: block;
+}
+
+.folder:hover .folder-parent {
+	color: #666666;
+}
+
+.dropdown-content a:hover {
+	background-color: #666666;
+}
+
+.secondary-nav ul li {
+	padding-bottom: 15px;
+}
+
+.secondary-nav ul li a {
+	font-size: 13px;
+	color: #FFFAF0;
+}
+
+.right img {
+	position: relative;
+	float: left;
+	width: auto;
+	height: 430px;
+	padding-right: 20px;
+}
